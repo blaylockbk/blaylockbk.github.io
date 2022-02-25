@@ -1,0 +1,238 @@
+/************************************************
+Brian Blaylock's extra styling
+*************************************************/
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/home2.png");
+
+    /* Set a specific height */
+    min-height: 750px;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    /*background-size: cover;*/
+    background-size: cover;
+}
+
+* {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+
+.gist {
+   margin: auto;
+   max-width: 90%;
+   overflow:auto;
+}
+
+.gist .blob-wrapper.data {
+   max-height:250px;
+   overflow:auto;
+}
+
+html {}
+
+/*
+body {
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+}
+*/
+body {}
+
+#content {
+    padding: 10 5px 1.3em;
+    background-color: white;
+    margin: 0 auto;
+    position: relative;
+    /*min-height: 100%;*/
+    max-width: 1070px;
+    font-size: 18px;
+}
+
+#contentNoBorder {
+    padding: 10 5px 1.3em;
+    background-color: white;
+    max-width: 1250px;
+    margin: 0 auto;
+    position: relative;
+    min-height: 100%;
+}
+
+#footer {
+    /*position: absolute;*/
+    bottom: 0;
+    width: 100%;
+    height: 1.5em;
+    border-top: 1px solid black;
+    padding-top: 15px;
+    font-size: 12px;
+}
+
+p {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+img.style1 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    vertical-align: top;
+    display: block;
+    border: 1px solid;
+    border-color: black black;
+    box-shadow: 5px 5px 25px #888888;
+}
+
+img.style11 {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    vertical-align: top;
+    display: block;
+    border: 0px solid;
+    border-color: black black;
+    box-shadow: 5px 5px 25px #888888;
+}
+
+img.style2 {
+    /* img with padding and no boarder*/
+    margin-left: auto;
+    margin-right: auto;
+    vertical-align: top;
+    display: block;
+    padding: 10px;
+}
+
+img.styleT {
+    /*Style for transparent graphs*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    vertical-align: top;
+    display: block;
+    border: 1px solid;
+    border-color: black black;
+    box-shadow: 5px 5px 5px #888888;
+    background: linear-gradient(white, white, #dbedff, #add6ff);
+}
+
+img.styleT2 {
+    /*Style for transparent graphs*/
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    vertical-align: top;
+    display: block;
+    border: 1px solid;
+    border-color: black black;
+    box-shadow: 5px 5px 5px #888888;
+    background: linear-gradient(white, white, #fffadb, #fff098);
+}
+
+table.center {
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+textarea.Linux {
+    width: 100%;
+    height: 30px;
+    color: red;
+    background-color: lightyellow;
+    font-family: "Courier";
+    font-size: 17;
+}
+
+textarea.Python {
+    width: 100%;
+    height: 300px;
+    color: #006e18;
+    background-color: #b5efff;
+    font-family: "Courier";
+    font-size: 16;
+}
+
+textarea {
+    width: 100%;
+    height: 300px;
+    font-family: "Courier";
+    font-size: 12;
+}
+
+
+/* CSS for creating an easy "tooltip"
+	To display a tool tip when you hover over text or an image
+	wrap the text or image with an <a> tag with a title.
+	<a title="this is the text that will show in the tool tip" class="tooltip">Display Text</a>
+	If you want to make a special style for it, assign the class and use
+	the following CSS...
+*/
+
+.tooltip {
+    display: inline;
+    position: relative;
+}
+
+.tooltip:hover:after {
+    background: #333;
+    background: rgba(0, 0, 0, .8);
+    border-radius: 5px;
+    bottom: 26px;
+    color: #fff;
+    content: attr(title);
+    left: 20%;
+    padding: 5px 15px;
+    position: absolute;
+    z-index: 98;
+    width: 220px;
+}
+
+.home {
+    font-size: 22px;
+    padding: 5px;
+}
+
+.home a:link {
+    color: #990000;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.home a:visited {
+    color: #990000;
+    font-weight: 600;
+}
+
+
+/* Home Page Top Image*/
+.img-container {
+    position: relative;
+}
+.homeImageLink {
+    position: absolute;
+    bottom: 20%;
+    left: -2%;
+    text-align: center;
+    width: 100%;
+}
+.homeImageLink span {
+    color: white;
+    font-weight: 100;
+    font-variant: small-caps;
+    font-size: 5vmin;
+    font-style: italic;
+    letter-spacing: 8px;
+    padding: 0 30px;
+    line-height: 150%;
+    float: right;
+    background: rgba(0, 0, 0, 0.5);
+}
+/* (^Home Page Top Image^)*/
+
+
